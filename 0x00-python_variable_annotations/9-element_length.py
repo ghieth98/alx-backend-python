@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 """
-Annotate element_length function which takes lst as an argument to return values with appropriate types
+Annotate element_length function which takes
+lst as an argument to return values
+ with appropriate types
 """
 from typing import Iterable, Sequence, List, Tuple
 
