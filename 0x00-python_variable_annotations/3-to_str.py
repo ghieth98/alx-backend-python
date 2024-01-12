@@ -10,7 +10,9 @@ function to_str that takes
 
 def to_str(n: float) -> str:
     """
-    takes a float n as argument and returns the string representation of the result
+    takes a float n as argument and
+     returns the string representation
+      of the result
     :param n:
     :return: str
     """
