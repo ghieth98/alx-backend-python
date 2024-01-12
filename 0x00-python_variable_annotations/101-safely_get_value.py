@@ -9,9 +9,7 @@ from typing import Any, Mapping, TypeVar, Union
 T = TypeVar('T')
 
 
-def safely_get_value(dct: Mapping,
-                     key: Any,
-                     default=Union[T, Any]) -> Union[Any, T]:
+def safely_get_value(dct: Mapping, key: Any, default=Union[T, Any]) -> Union[Any, T]:
     """
     :param dct:
     :param key:
